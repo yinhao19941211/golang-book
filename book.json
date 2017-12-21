@@ -1,0 +1,24 @@
+{
+  "root": "./src/",
+  "title": "Golang 学习资料",
+  "description": "",
+  "author": "吴浩麟",
+  "isbn": "9787121331725",
+  "language": "zh-hans",
+  "plugins": [
+    "ga",
+    "adsense"
+  ],
+  "pluginsConfig": {
+    "ga": {
+      "token": "UA-54964850-3"
+    },
+    "adsense": {
+      "client": "ca-pub-9697944574373240",
+      "slot": "9319793387",
+      "format": "auto",
+      "element": ".page-inner section",
+      "position": "bottom"
+    }
+  }
+}

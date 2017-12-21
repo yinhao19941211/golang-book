@@ -1,0 +1,11 @@
+{
+  "name": "golang-book",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "gitbook build",
+    "pub": "node build.js"
+  },
+  "dependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
