@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "gitbook build",
-    "pub": "node build.js"
+    "pub": "node pub.js"
   },
   "dependencies": {
     "gh-pages": "^1.1.0"
