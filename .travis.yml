@@ -6,6 +6,9 @@ install:
     - gitbook install
     - gitbook build
     - echo "go.wuhaolin.cn" > _book/CNAME
+script:
+    - gitbook build
+    - echo "go.wuhaolin.cn" > _book/CNAME
 deploy:
   provider: pages
   local-dir: ./_book
