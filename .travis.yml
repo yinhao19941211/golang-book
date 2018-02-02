@@ -2,8 +2,10 @@ language: node_js
 node_js:
   - "8"
 install:
-    - "npm install -g gitbook-cli"
-    - "gitbook install"
+    - npm install -g gitbook-cli
+    - gitbook install
+    - gitbook build
+    - echo "go.wuhaolin.cn" > _book/CNAME
 deploy:
   provider: pages
   local-dir: ./_book

@@ -1,7 +1,4 @@
 {
   "name": "golang-book",
-  "version": "0.0.1",
-  "scripts": {
-    "test": "node gen.js"
-  }
+  "version": "0.0.1"
 }
