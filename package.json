@@ -2,10 +2,6 @@
   "name": "golang-book",
   "version": "0.0.1",
   "scripts": {
-    "build": "gitbook build",
-    "pub": "node pub.js"
-  },
-  "dependencies": {
-    "gh-pages": "^1.1.0"
+    "test": "node gen.js"
   }
 }
