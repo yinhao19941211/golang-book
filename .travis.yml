@@ -5,9 +5,8 @@ install:
     - npm install -g gitbook-cli
     - gitbook install
     - gitbook build
-    - echo "go.wuhaolin.cn" > _book/CNAME
 script:
-    - travis_wait gitbook build
+    - travis_wait 1000 gitbook build
     - echo "go.wuhaolin.cn" > _book/CNAME
 deploy:
   provider: pages
