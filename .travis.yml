@@ -4,7 +4,6 @@ node_js:
 install:
     - npm install -g gitbook-cli
     - gitbook install
-    - gitbook build
 script:
     - travis_wait 10000 gitbook build
     - echo "go.wuhaolin.cn" > _book/CNAME
