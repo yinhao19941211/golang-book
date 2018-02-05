@@ -6,7 +6,7 @@ install:
     - gitbook install
     - gitbook build
 script:
-    - travis_wait 1000 gitbook build
+    - travis_wait 10000 gitbook build
     - echo "go.wuhaolin.cn" > _book/CNAME
 deploy:
   provider: pages
