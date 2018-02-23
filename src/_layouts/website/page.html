@@ -2,55 +2,5 @@
 
 {% block javascript %}
 {{ super() }}
-<!--京东广告-->
-<script type="text/javascript">var jd_union_unid = "1000357173", jd_ad_ids = "505:6",
-    jd_union_pid = "CP2N77GVLBC1+oDdAxoAINmI1asEKgA=";
-var jd_width = 960;
-var jd_height = 90;
-var jd_union_euid = "";
-var p = "AhIAURlbFwISBGVEH0hfIlgRRgYlXVZaCCsfSlpMWGVEH0hfIkEGGT59eXNGNUAtRgUbbyNlKRRXdlFZF2sVAhUFURNSFgYRN1UaWhQAFgFVHVklMk1DCEZrXmwTNwpfBkgyEgNVHV8TAxEHVxxZFDITN2Ur";</script>
-<script type="text/javascript" charset="utf-8" src="//u-x.jd.com/static/js/auto.js"></script>
-<script>
-    // 隐藏JD广告
-    jdFrame = document.querySelector('iframe[src^="//u-x.jd.com/"]');
-    document.addEventListener('DOMContentLoaded', function () {
-        if (jdFrame) {
-            jdFrame.parentElement.style.display = 'none';
-        }
-    });
-</script>
-
-<!--搜狗广告-->
-<script type="text/javascript">
-    var sogou_ad_id = 956127;
-    var sogou_ad_height = 90;
-    var sogou_ad_width = 728;
-</script>
-<script type='text/javascript' src='http://images.sohu.com/cs/jsfile/js/c.js'></script>
-<script>
-    // 隐藏搜狗广告
-    sgFrame = document.querySelector('#starIframe_wrapper_1');
-    document.addEventListener('DOMContentLoaded', function () {
-        if (sgFrame) {
-            sgFrame.style.display = 'none';
-        }
-    });
-</script>
-
-<!--百度广告-->
-<script type="text/javascript">
-    /*移动端*/
-    var cpro_id = "u3205974";
-</script>
-<script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/cm.js"></script>
-<script>
-    // 隐藏百度广告
-    baiduFrame = document.querySelector('div[id^="BAIDU_SSP__wrapper_"]');
-    document.addEventListener('DOMContentLoaded', function () {
-        if (baiduFrame) {
-            baiduFrame.style.display = 'none';
-        }
-    });
-</script>
 {% endblock %}
 
